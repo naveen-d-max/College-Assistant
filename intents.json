@@ -1,0 +1,139 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good morning",
+                "Anyone there?",
+                "Greetings"
+            ],
+            "responses": [
+                "Hello! Welcome to the College Help Desk. How can I assist you today?",
+                "Hi there! How can I help you with your college-related queries?",
+                "Greetings! I'm your AI assistant. What would you like to know?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "I'm leaving",
+                "Have a good day"
+            ],
+            "responses": [
+                "Goodbye! Have a great day ahead.",
+                "See you soon! Feel free to reach out if you have more questions.",
+                "Farewell! Good luck with your studies."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "You're very welcome! Is there anything else I can help you with?",
+                "Happy to help! Do you have any other questions?",
+                "My pleasure! Let me know if you need more assistance."
+            ]
+        },
+        {
+            "tag": "college_info",
+            "patterns": [
+                "Tell me about the college",
+                "What is this college?",
+                "College info",
+                "Where is the college located?",
+                "About the campus"
+            ],
+            "responses": [
+                "Our college is a premier institution known for academic excellence and research. We offer a vibrant campus life with state-of-the-art facilities.",
+                "The college is located in the heart of the city, providing easy access to students. We have over 50 years of history in higher education.",
+                "We are an AI-driven campus focusing on future-ready skills. Our campus includes modern labs, a central library, and sports complexes."
+            ]
+        },
+        {
+            "tag": "courses",
+            "patterns": [
+                "What courses are offered?",
+                "List of departments",
+                "Available degree programs",
+                "Engineering courses",
+                "Science and Arts courses"
+            ],
+            "responses": [
+                "We offer undergraduate and postgraduate programs in Engineering (CS, IT, ECE, Mech), Arts, Science, and Management.",
+                "Our popular courses include Computer Science, Data Science, Artificial Intelligence, Business Administration, and Biotechnology.",
+                "You can find a complete list of courses on our official website's Academic section. Would you like me to highlight a specific department?"
+            ]
+        },
+        {
+            "tag": "exams",
+            "patterns": [
+                "When are the exams?",
+                "Exam schedule",
+                "Midterm dates",
+                "Final exam timetable",
+                "Are exam dates out?"
+            ],
+            "responses": [
+                "The semester exams typically start in December and May. You can download the detailed schedule from the Student Portal.",
+                "The midterm exams for this semester are scheduled for next month. Please check the notice board for the specific timetable.",
+                "Exam schedules are updated on the college website under the 'Examinations' tab."
+            ]
+        },
+        {
+            "tag": "admission",
+            "patterns": [
+                "How to apply?",
+                "Admission process",
+                "Application deadline",
+                "Fees structure",
+                "Entrance exam for admission"
+            ],
+            "responses": [
+                "Admissions are open! You can apply online through the college portal. The deadline for the next batch is July 30th.",
+                "The admission process involves an online application followed by an entrance test and an interview.",
+                "For fee details and scholarship information, please visit the 'Admissions' section on our website or contact the Registrar's office."
+            ]
+        },
+        {
+            "tag": "contacts",
+            "patterns": [
+                "Who to contact?",
+                "Department contacts",
+                "Registrar office phone",
+                "Admission cell email",
+                "Help desk number"
+            ],
+            "responses": [
+                "You can reach the General Help Desk at +1-800-COLLEGE or email us at info@college.edu.",
+                "For admission queries, contact admission@college.edu. For technical support, email helpdesk@college.edu.",
+                "Department-specific contact details are available on the 'Contact Us' page of the college website."
+            ]
+        },
+        {
+            "tag": "timetable",
+            "patterns": [
+                "Class timetable",
+                "Weekly schedule",
+                "When is my next class?",
+                "Lecture timings"
+            ],
+            "responses": [
+                "Each department has its own weekly schedule. You can access your personalized timetable through the Student Dashboard.",
+                "Lectures usually run from 9:00 AM to 4:00 PM, Monday to Friday.",
+                "Please select your department from the portal to view the current semester's lecture timings."
+            ]
+        }
+    ]
+}

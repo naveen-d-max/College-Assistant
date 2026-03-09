@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Help Desk | AI Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <div class="chatbot-container">
+        <header class="chat-header">
+            <div class="bot-avatar">
+                <i data-lucide="bot" color="white" size="28"></i>
+            </div>
+            <div class="bot-info">
+                <h2>College Assistant</h2>
+                <div class="bot-status">
+                    <span class="status-dot"></span>
+                    Online
+                </div>
+            </div>
+        </header>
+
+        <main class="chat-messages" id="chat-messages">
+            <!-- Initial Greeting -->
+            <div class="message bot">
+                <p>Hello! I'm the College AI Assistant. How can I help you today? You can ask me about courses,
+                    admissions, exams, or contacts.</p>
+            </div>
+        </main>
+
+        <div class="typing" id="typing-indicator">
+            <p>Assistant is typing</p>
+            <div class="dots">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+
+        <form class="chat-input" id="chat-form">
+            <input type="text" id="user-input" placeholder="Type your message..." autocomplete="off">
+            <button type="submit" id="send-btn">
+                <i data-lucide="send" color="white" size="20"></i>
+            </button>
+        </form>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
